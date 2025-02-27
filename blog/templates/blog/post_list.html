@@ -9,11 +9,10 @@
 
    </header> 
    <article>
-     <h2><a href="">My first post</a></h2>
-     <p>lorem32
-    
-     </p>
-   </article>
+   {% for post in posts %}
+        {{post}}
+   {% endfor %}  
+  </article>
     <p>Hi there</p>
     <p>It works</p>
   </body>
